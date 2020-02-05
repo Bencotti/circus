@@ -14,8 +14,11 @@ public class Trainer {
         System.out.println(a.speak());
         Duck d2 = (Duck) a; // downcasting
         train(new Duck());
-        // train(new Parrot());
-    }
+        train(new Parrot());
+        //Animal a2 = new Animal();
+        //Bird b2 = new Bird();
+        }
+
 
     private static void train(Bird bird) {
         if (bird instanceof Duck) {
